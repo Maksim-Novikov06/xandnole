@@ -32,7 +32,7 @@ while True:
     print('Ход ' + igrok(hod))
     i, j = map(int, input('Введите позицию (строку, столбец): ').split())
     if ogranich(i, j):
-        if  (hod) % 2 == 0:
+        if (hod) % 2 == 0:
             p[i - 1][j - 1] = 0
         else:
             p[i - 1][j - 1] = 'x'
